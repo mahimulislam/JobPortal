@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>JobPortal</display-name>
+
+  <servlet>
+  	<servlet-name>jobind</servlet-name>
+  	<servlet-class>com.jobportal.IndexHandling</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobind</servlet-name>
+  	<url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+  	<servlet-name>joblog</servlet-name>
+  	<servlet-class>com.jobportal.LoginDetailsEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>joblog</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>joblogemp</servlet-name>
+  	<servlet-class>com.jobportal.LoginDetailsClient</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>joblogemp</servlet-name>
+  	<url-pattern>/clientlogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>jobsignup</servlet-name>
+  	<servlet-class>com.jobportal.SignUpDetailsEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobsignup</servlet-name>
+  	<url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>jobprof</servlet-name>
+  	<servlet-class>com.jobportal.ViewProfileEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobprof</servlet-name>
+  	<url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>jobprofclient</servlet-name>
+  	<servlet-class>com.jobportal.ViewProfileClient</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobprofclient</servlet-name>
+  	<url-pattern>/profileclient</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>jobprofupdate</servlet-name>
+  	<servlet-class>com.jobportal.UpdateProfileEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobprofupdate</servlet-name>
+  	<url-pattern>/profileupdate</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  	<servlet-name>jobpost</servlet-name>
+  	<servlet-class>com.jobportal.PostJobClient</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobpost</servlet-name>
+  	<url-pattern>/postjob</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  	<servlet-name>jobpost1</servlet-name>
+  	<servlet-class>com.jobportal.ApplyJobEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobpost1</servlet-name>
+  	<url-pattern>/applyjob</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  	<servlet-name>jobprofupdatecl</servlet-name>
+  	<servlet-class>com.jobportal.UpdateProfileClient</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobprofupdatecl</servlet-name>
+  	<url-pattern>/profileupdateclient</url-pattern>
+  
+  </servlet-mapping>  
+  
+  
+  
+  <servlet>
+  	<servlet-name>jobppfclient</servlet-name>
+  	<servlet-class>com.jobportal.ViewPastProjectClient</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobppfclient</servlet-name>
+  	<url-pattern>/pastprojectsclient</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>jobppfemp1</servlet-name>
+  	<servlet-class>com.jobportal.ViewPastProjectEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobppfemp1</servlet-name>
+  	<url-pattern>/pastprojectsemployee</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>jobppfsignupemployee</servlet-name>
+  	<servlet-class>com.jobportal.SignUpDetailsEmployee</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobppfsignupclient</servlet-name>
+  	<url-pattern>/signupclient</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>jobppfsignupclient</servlet-name>
+  	<servlet-class>com.jobportal.SignUpDetailsClient</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>jobppfsignupemployee</servlet-name>
+  	<url-pattern>/signupemployee</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ <servlet-name>FileUploadHandler</servlet-name>
+ <servlet-class>com.jobportal.FileUploadHandler</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>FileUploadHandler</servlet-name>
+ <url-pattern>/FileUploadHandler/*</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>FileUploadHandlerClient</servlet-name>
+ <servlet-class>com.jobportal.FileUploadHandlerClient</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>FileUploadHandlerClient</servlet-name>
+ <url-pattern>/FileUploadHandlerClient/*</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <servlet-name>ApplyJobHandler</servlet-name>
+ <servlet-class>com.jobportal.ApplyJobHandler</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>ApplyJobHandler</servlet-name>
+ <url-pattern>/ApplyJobHandler/*</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>fileServlet</servlet-name>
+    <servlet-class>com.jobportal.FileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>fileServlet</servlet-name>
+    <url-pattern>/file/*</url-pattern>
+</servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

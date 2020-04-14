@@ -1,0 +1,502 @@
+@charset "ISO-8859-1";
+#full{
+	width: 100%;
+	height: 40px;
+}
+
+#header{
+	width: 100%;
+	height: 200px;
+	opacity: 0.7;
+	background: black;
+}
+#logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav{
+	width: 65%;
+	height: 400px;
+	float: left;
+}
+	
+
+ul li {
+	list-style: none;
+	float: left;
+	width: 20%;
+	line-height: 50px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: orange;
+}
+h1{
+	padding: 8px;
+}
+#banner{
+	width: 100%;
+	height: 200px;
+}
+#f1{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background: silver;
+}
+#welcome{
+	width: 100%;
+	height: auto;
+	
+}
+#g1{
+	width: 100%;
+	height: 500px;
+	
+}
+#one{
+	width: 17.34%;
+	height: auto;
+	float: left;
+}
+#two{
+	width: 19.43%;
+	height: auto;
+	float: left;
+}
+#three{
+	width: 17.28%;
+	height: auto;
+	float: left;
+}
+#four{
+	width: 17%;
+	height: auto;
+	float: left;
+}
+#five{
+	width: 22.8%;
+	height: auto;
+	float: left;
+}
+#six{
+	width: 6%;
+	height: 100px;
+	float: left;
+}
+@media (max-width: 1500px) and (min-width:1000px){
+
+#full{
+	width: 100%;
+	height: 20px;
+}
+
+#header{
+	width: 100%;
+	height: 110px;
+	opacity: 0.7;
+	background: black;
+}
+#logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav{
+	width: 65%;
+	height: 300px;
+	float: left;
+}
+ul li {
+	list-style: none;
+	float: left;
+	width: 17%;
+	line-height: 50px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: orange;
+}
+h1{
+	padding: 8px;
+}
+#banner{
+	width: 100%;
+	height: 400px;
+}
+#f1{
+	width: 100%;
+	height: 100px;
+	background: silver;
+}
+#welcome{
+	width: 100%;
+	height: auto;
+	
+}
+#g1{
+	width: 100%;
+	height: 500px;
+	
+}
+#one{
+	width: 17.34%;
+	height: auto;
+	float: left;
+}
+#two{
+	width: 19.43%;
+	height: auto;
+	float: left;
+}
+#three{
+	width: 17.28%;
+	height: auto;
+	float: left;
+}
+#four{
+	width: 17%;
+	height: auto;
+	float: left;
+}
+#five{
+	width: 22.8%;
+	height: auto;
+	float: left;
+}
+#six{
+	width: 6%;
+	height: 100px;
+	float: left;
+}
+#f2{
+    padding-left: 10%;
+    padding-right: 10%;
+	width: 100%;
+	height: 100px;
+    position: fixed;
+    margin-top: 350px;
+}
+}
+@media (max-width: 1000px) and (min-width: 700px){
+#full{
+	width: 100%;
+	height: 20px;
+}
+
+
+#header{
+	width: 100%;
+	height: 210px;
+	opacity: 0.7;
+	background: black;
+}
+#logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav{
+	width: 65%;
+	height: 300px;
+	float: left;
+}
+	
+
+ul li {
+	list-style: none;
+	float: left;
+	width: 20%;
+	line-height: 50px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: orange;
+}
+h1{
+	padding: 8px;
+}
+#banner{
+	width: 100%;
+	height: 400px;
+}
+#f1{
+	width: 100%;
+	height: 100px;
+	background: silver;
+}
+#welcome{
+	width: 100%;
+	height: auto;
+	
+}
+#g1{
+	width: 100%;
+	height: 1000px;
+	
+}
+#one{
+	width: 17.34%;
+	height: auto;
+	float: left;
+}
+#two{
+	width: 19.43%;
+	height: auto;
+	float: left;
+}
+#three{
+	width: 17.28%;
+	height: auto;
+	float: left;
+}
+#four{
+	width: 17%;
+	height: auto;
+	float: left;
+}
+#five{
+	width: 22.8%;
+	height: auto;
+	float: left;
+}
+#six{
+	width: 6%;
+	height: 100px;
+	float: left;
+}
+#f2{
+    padding-left: 10%;
+    padding-right: 10%;
+	width: 100%;
+	height: 100px;
+    position: fixed;
+    margin-top: 350px;
+}
+}
+
+@media (max-width: 700px) and (min-width:500px){
+	#full{
+	width: 100%;
+	height: 20px;
+}
+
+#header{
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	background: black;
+	position: fixed;
+}
+#logo{
+	width: 100%;
+	height: 100px;
+	
+}
+#nav{
+	width: 100%;
+	height: 300px;
+	
+	
+}
+ul li{
+	list-style: none;
+	float: left;
+	width: 17%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: orange;
+}
+h1{
+	padding: 8px;
+}
+#banner{
+	width: 100%;
+	height: 400px;
+	
+}
+#f1{
+	width: 100%;
+	height: 100px;
+	background: silver;
+}
+#welcome{
+	width: 100%;
+	height: auto;
+	
+}
+#g1{
+	width: 100%;
+	height: auto;
+	
+}
+#one{
+	width: 100%;
+	height: auto;
+	
+}
+#two{
+	width: 100%;
+	height: auto;
+	}
+#three{
+	width: 100%;
+	height: auto;
+	
+}
+#four{
+	width: 100%;
+	height: auto;
+	
+}
+#five{
+	width: 100%;
+	height: auto;
+	
+}
+#six{
+	width: 100%;
+	height: 100px;
+	
+}
+#f2{
+    padding-left: 10%;
+    padding-right: 10%;
+	width: 100%;
+	height: 100px;
+    position: fixed;
+    margin-top: 350px;
+}
+}
+@media (max-width: 500px) and (min-width:50px){
+	#full{
+	width: 100%;
+	height: 20px;
+}
+#header{
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	background: black;
+}
+#logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#nav{
+	width: 70%;
+	height: auto;
+	float: left; 
+	
+}
+ul li{
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: orange;
+}
+h1{
+	padding: 8px;
+}
+#banner{
+	width: 100%;
+	height: 400px;
+	
+}
+
+
+#f1{
+	width: 100%;
+	height: 100px;
+	background: silver;
+}
+#welcome{
+	width: 100%;
+	height: auto;
+	
+}
+#g1{
+	width: 100%;
+	height: auto;
+	
+}
+#one{
+	width: 100%;
+	height: auto;
+	
+}
+#two{
+	width: 100%;
+	height: auto;
+	
+}
+#three{
+	width: 100%;
+	height: auto;
+	
+}
+#four{
+	width: 100%;
+	height: auto;
+
+}
+#five{
+	width: 100%;
+	height: auto;
+	
+}
+#six{
+	width: 100%;
+	height: auto;
+	
+}
+#f2{
+    padding-left: 10%;
+    padding-right: 10%;
+	width: 80%;
+	height: 100px;
+    position: fixed;
+    margin-top: 350px;
+}
+}
+/*r1.php*/
+#bg{
+	background-size:  100%;
+	background-repeat: no-repeat;
+}
+#form{
+	width: 600px;
+	padding-top: 100px;
+	height: auto;
+}
+td{
+	width: 300px;
+	height: 50px;
+}
+/* book.php*/
+#book{
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#f2{
+   
+	width: 80%;
+	height: 100px;
+    margin-top: 350px;
+
+}
